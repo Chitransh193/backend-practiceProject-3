@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Home</title>
+  <link rel="stylesheet" href="/css/index.css"/>
+  <!-- Custom Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="main">
+  <form action="http://localhost:3000/register" method="post">
+    <h1>Registrate YourSelf</h1>
+    <div class="input-holder">
+    <input type="text" name="userName" placeholder="Username"/>
+    <input type="email" name="email" placeholder="Email"/>
+    <input type="password" name="password" placeholder="Password"/>
+    </div>
+    <div class="button-holder">
+    <button class="register-btn" type="submit">Register</button>
+    <button class="login-btn"><a href="http://localhost:3000/login">Login</a></button>
+    </div>
+    </form>
+</div>
+</body>
+</html>

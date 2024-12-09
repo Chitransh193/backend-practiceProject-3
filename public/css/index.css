@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.main form {
+  max-width: 1440px;
+  display: grid;
+  border: 1px solid hsl(187, 24%, 22%);
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.main form h1 {
+  margin-bottom: 10px;
+}
+
+.main form .input-holder {
+  display: grid;
+  gap: 10px;
+}
+
+.main form .input-holder input {
+  font-family: "Karla", sans-serif;
+  padding: 10px 10px 10px 15px;
+  border: 1px solid hsl(187, 24%, 22%);
+  border-radius: 8px;
+  outline: none;
+}
+
+.main form .button-holder {
+  margin-top: 10px;
+}
+
+.main form .button-holder .register-btn {
+  width: 80px;
+  background-color: hsl(169, 82%, 27%);
+  color: hsl(0, 0%, 100%);
+  padding: 6px;
+  border: 1px solid hsl(187, 24%, 22%);
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+.main form .button-holder .login-btn a {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+
+.main form .button-holder .login-btn {
+  width: 80px;
+  background-color: hsl(169, 82%, 27%);
+  color: hsl(0, 0%, 100%);
+  padding: 6px;
+  border: 1px solid hsl(187, 24%, 22%);
+  border-radius: 10px;
+  font-weight: 700;
+}
